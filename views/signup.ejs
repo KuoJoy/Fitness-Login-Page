@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include ("partials/header") %>
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="container-fluid d-flex flex-wrap w-100 vh-100 px-0">
+      <main class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 login__form signup__form">
+        <h2 class="fw-bold text-center mb-5">JOIN US!</h2>
+        <form action="/auth/signup" method="POST" class="w-50 mt-2" style="min-width: 280px;">
+          <%- include ('partials/message') %>
+          <div class="form-group">
+            <label for="exampleUsername">Username</label>
+            <input name="name" type="text" class="form-control" id="exampleUsername" required />
+            <small class="form-text text-muted">Enter Full Name here</small>
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email" name="email" required />
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password"
+              required />
+          </div>
+          <br />
+          <button type="submit" class="btn w-100" style="background-color: #D23056; color: #fff;">Sign Up</button>
+        </form>
+      </main>
+      <div class="position-relative col-12 col-md-6 left__bg signup__bg">
+        <h1 class="position-absolute top-50 start-50 translate-middle text-center fw-bold sub__title"
+          style="color: #d23056; text-shadow: 3px 3px 0 rgba(35, 35, 35, 0.8);">FITNESS GYM</h1>
+        <img src="https://i.imgur.com/pQkhgD2.jpg" alt="" class="img-fluid w-100 h-100 object-fit-cover">
+      </div>
+    </div>
+  </body>
+</html>

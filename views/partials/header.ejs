@@ -1,0 +1,189 @@
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Alata&family=Arsenal:wght@700&family=Caveat&family=Fredoka+One&family=Gilda+Display&family=Josefin+Sans&family=Lexend:wght@400;900&family=Playfair+Display&family=Plus+Jakarta+Sans:wght@400;800&family=Roboto+Mono&family=Ubuntu&display=swap"
+  rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+  crossorigin="anonymous"
+></script>
+<style>
+  *,
+  ::before,
+  ::after {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    transition: all 0.3s;
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+    overflow: auto;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0 0.5rem;
+  }
+  ul,
+  li {
+    margin: 0;
+    list-style: none;
+  }
+  .row {
+    margin: 0;
+  }
+  .navbar * {
+    color: #fff;
+  }
+  .navbar-nav .nav-link.active,
+  .navbar-nav .show > .nav-link {
+    color: #d23056;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  header {
+    padding-top: 4rem;
+  }
+  header > h1 {
+    color: #151515;
+    text-shadow: 3px 3px 0 rgba(210, 48, 86, 1), -1px -1px 0 rgba(255, 255, 255, 0.5);
+  }
+  header > p {
+    color: #151515;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+  }
+  .main__title {
+    font-size: 3rem;
+  }
+  .main__bg {
+    object-position: 83% top;
+  }
+  .sub__title {
+    font-size: 2.5rem;
+    white-space: nowrap;
+  }
+  .or__text {
+    position: relative;
+    color: #bbb;
+    font-size: 0.8rem;
+  }
+  .or__text span {
+    background-color: #fff;
+  }
+  .or__text::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+    z-index: -1;
+  }
+  .left__bg {
+    max-height: 25%;
+  }
+  .login__form {
+    margin-top: -80px;
+  }
+  .signup__bg {
+	order: 1;
+  }
+  .signup__form {
+    order: 2;
+  }
+  .mian__course {
+    height: 360px;
+  }
+  .mian__course header {
+    padding-top: 3rem;
+  }
+  .mian__course header > h1,
+  .mian__course header > p {
+    color: #fff;
+    text-shadow: 2px 2px 0 #d23056;
+  }
+  .main__title {
+    font-size: 3rem;
+  }
+  .main__bg {
+    object-position: 83% top;
+  }
+  section {
+    background-color: #232323;
+  }
+  .course__list {
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+    color: #fff;
+  }
+  .course__list li {
+    cursor: pointer;
+  }
+  .course__list h5 {
+    padding: 0.5rem;
+    background-color: #d23056;
+  }
+  .course__list li .course__img::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #003145, #650011);
+    filter: opacity(0);
+    mix-blend-mode: multiply;
+  }
+  .course__list li:hover h5 {
+    color: #232323;
+  }
+  .course__list li:hover .course__img::after {
+    filter: opacity(0.6);
+  }
+  .course__info {
+    padding: 0.5rem 0;
+    background-color: #fff;
+    color: #232323;
+  }
+  @media screen and (min-width: 768px) {
+    .main__title {
+      font-size: 5rem;
+    }
+    header > p {
+      font-size: 2rem;
+    }
+    .left__bg {
+      max-height: 100%;
+    }
+    .sub__title {
+      font-size: 3rem;
+    }
+    .login__form {
+      margin-top: 0;
+    }
+    .signup__bg {
+      order: 2;
+    }
+    .signup__form {
+      order: 1;
+    }
+    .course__list {
+      padding: 3rem;
+    }
+  }
+</style>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include ("partials/header") %>
+    <title>My Course</title>
+  </head>
+  <body>
+    <%- include ("partials/nav") %>
+    <div class="container-fluid px-0 position-relative mian__course">
+      <header class="position-absolute top-50 start-50 translate-middle w-100 px-3 text-center">
+        <h1 class="w-100">Welcome back to <%= user.name %>'s course. </h1>
+      </header>
+    
+      <img src="https://i.imgur.com/1ByXdYB.jpg" alt="" class="img-fluid w-100 h-100 object-fit-cover">
+    </div>
+    <section class="pt-5">
+      <h3 class="text-center text-light">Let's get moving! <%= user.name %>!</h3>
+      <ul class="row col-12 col-md-10 d-flex justify-content-center course__list">
+        <li class="col-6 col-md-3 mb-3">
+          <div class="position-relative course__img">
+            <img src="https://i.imgur.com/oi5DKDN.jpg" alt="" class="w-100">
+          </div>
+          <h5>Running</h5>
+          <div class="course__info">
+            <p>Time: 15min</p>
+            <p>Coach: Tom</p>
+          </div>
+        </li>
+        <li class="col-6 col-md-3 mb-3">
+          <div class="position-relative course__img">
+            <img src="https://i.imgur.com/E60lhvI.jpg" alt="" class="w-100">
+          </div>
+          <h5>Skipping Rope</h5>
+          <div class="course__info">
+            <p>Time: 30min</p>
+            <p>Coach: Mario</p>
+          </div>
+        </li>
+        <li class="col-6 col-md-3 mb-3">
+          <div class="position-relative course__img">
+            <img src="https://i.imgur.com/QQm9Xtm.jpg" alt="" class="w-100">
+          </div>
+          <h5>Body Combat</h5>
+          <div class="course__info">
+            <p>Time: 20min</p>
+            <p>Coach: Julia</p>
+          </div>
+        </li>
+        <li class="col-6 col-md-3 mb-3">
+          <div class="position-relative course__img">
+            <img src="https://i.imgur.com/70Kyi2G.jpg" alt="" class="w-100">
+          </div>
+          <h5>Weight Training</h5>
+          <div class="course__info">
+            <p>Time: 20min</p>
+            <p>Coach: Mike</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
