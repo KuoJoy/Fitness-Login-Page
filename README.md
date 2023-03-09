@@ -36,7 +36,7 @@ npm install -g nodemon // 安裝nodemon套件
 ```javascript
 nodemon index.js
 ```
-5. 開啟瀏覽器輸入 [http://localhost:3000](http://localhost:8080) 即可進入Fitness網站
+5. 開啟瀏覽器輸入 [http://localhost:8080](http://localhost:8080) 即可進入Fitness網站
 
 ## Using Tools - 使用工具
 * 開發環境 - [Visual Studio Code](https://code.visualstudio.com/)
