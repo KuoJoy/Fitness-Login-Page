@@ -9,10 +9,14 @@
 
 ## Features - 功能列表
 * 使用Google帳號登入
-<img src="https://i.imgur.com/lWBttcZ.png" alt="login with google" width="400">
+<img src="https://i.imgur.com/xWiyYZK.gif" alt="login with google" width="800">
 
 * 自行註冊新帳號、密碼
+<img src="https://i.imgur.com/YWC5Ivt.gif" alt="signup" width="800">
+
 * 密碼加密
+<img src="https://i.imgur.com/R1zAF3N.gif" alt="signup" width="600">
+
 * 登入即可觀看自己的健身課程
 
 ## Environment Setup - 環境建置
