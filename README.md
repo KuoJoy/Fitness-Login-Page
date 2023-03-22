@@ -9,10 +9,10 @@
 
 ## Features - 功能列表
 * 使用Google帳號登入
-<img src="https://i.imgur.com/xWiyYZK.gif" alt="login with google" width="800">
+![image](https://github.com/KuoJoy/Fitness-Login-Page/blob/0625ec6e0d406205d2b2b671f10bb023ae6d7c7c/login%20google.gif)
 
 * 自行註冊新帳號、密碼
-<img src="https://i.imgur.com/YWC5Ivt.gif" alt="signup" width="800">
+![image](https://github.com/KuoJoy/Fitness-Login-Page/blob/0625ec6e0d406205d2b2b671f10bb023ae6d7c7c/signup.gif)
 
 * 密碼加密
 <img src="https://i.imgur.com/R1zAF3N.gif" alt="signup" width="600">
