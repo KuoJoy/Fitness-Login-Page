@@ -9,9 +9,11 @@
 
 ## Features - 功能列表
 * 使用Google帳號登入
+
 ![image](https://github.com/KuoJoy/Fitness-Login-Page/blob/0625ec6e0d406205d2b2b671f10bb023ae6d7c7c/login%20google.gif)
 
 * 自行註冊新帳號、密碼
+
 ![image](https://github.com/KuoJoy/Fitness-Login-Page/blob/0625ec6e0d406205d2b2b671f10bb023ae6d7c7c/signup.gif)
 
 * 密碼加密
